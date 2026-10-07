@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HackerOS // Blackout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= BOOT ================= -->
+
+    <div id="bootScreen" class="boot-screen">
+
+        <div class="boot-grid"></div>
+
+        <div class="boot-content">
+
+            <div class="boot-symbol">
+                ◈
+            </div>
+
+            <div class="boot-logo">
+                HACKER<span>OS</span>
+            </div>
+
+            <div class="boot-subtitle">
+                BLACKOUT SECURITY ENVIRONMENT
+            </div>
+
+            <div class="boot-terminal">
+
+                <div id="bootLog"></div>
+
+            </div>
+
+            <div class="boot-progress">
+
+                <div id="bootProgress"></div>
+
+            </div>
+
+            <div id="bootStatus">
+                INITIALIZING...
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= LOGIN ================= -->
+
+    <div id="loginScreen" class="login-screen hidden">
+
+        <div class="login-background"></div>
+
+        <div class="login-box">
+
+            <div class="login-warning">
+                // RESTRICTED ACCESS
+            </div>
+
+            <div class="login-symbol">
+                ◈
+            </div>
+
+            <div class="login-logo">
+                HACKER<span>OS</span>
+            </div>
+
+            <div class="login-version">
+                BLACKOUT SECURITY SYSTEM // v3.0
+            </div>
+
+            <div class="login-line"></div>
+
+            <label>IDENTITY</label>
+
+            <div class="input-wrapper">
+                <span>root@</span>
+
+                <input
+                    id="usernameInput"
+                    type="text"
+                    autocomplete="off"
+                    spellcheck="false"
+                >
+            </div>
+
+            <label>ACCESS KEY</label>
+
+            <div class="input-wrapper">
+
+                <span>••••</span>
+
+                <input
+                    id="passwordInput"
+                    type="password"
+                    autocomplete="off"
+                >
+
+            </div>
+
+            <button id="loginButton">
+                AUTHENTICATE
+            </button>
+
+            <div id="loginMessage"></div>
+
+            <div class="login-footer">
+                CONNECTION ENCRYPTED // TRACE PROTECTION ACTIVE
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= APP ================= -->
+
+    <main id="app" class="app hidden">
+
+        <div class="ambient ambient-one"></div>
+        <div class="ambient ambient-two"></div>
+
+        <div class="terminal">
+
+            <!-- HEADER -->
+
+            <header class="terminal-header">
+
+                <div class="window-buttons">
+
+                    <span class="window close"></span>
+                    <span class="window minimize"></span>
+                    <span class="window maximize"></span>
+
+                </div>
+
+                <div class="terminal-title">
+
+                    <span class="title-status"></span>
+
+                    SYSTEM // BLACKOUT
+
+                </div>
+
+                <div class="header-actions">
+
+                    <button id="themeButton">
+                        THEMES
+                    </button>
+
+                    <button id="soundButton">
+                        🔊
+                    </button>
+
+                </div>
+
+            </header>
+
+
+            <!-- TOP HUD -->
+
+            <div class="hud">
+
+                <div class="hud-item">
+
+                    <span class="hud-label">
+                        SECURITY
+                    </span>
+
+                    <span class="hud-value danger-text">
+                        CRITICAL
+                    </span>
+
+                </div>
+
+                <div class="hud-item">
+
+                    <span class="hud-label">
+                        NETWORK
+                    </span>
+
+                    <span class="hud-value">
+                        ENCRYPTED
+                    </span>
+
+                </div>
+
+                <div class="hud-item">
+
+                    <span class="hud-label">
+                        TRACE
+                    </span>
+
+                    <span class="hud-value">
+                        DISABLED
+                    </span>
+
+                </div>
+
+                <div class="hud-item">
+
+                    <span class="hud-label">
+                        NODE
+                    </span>
+
+                    <span class="hud-value">
+                        UNKNOWN
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- TERMINAL -->
+
+            <section
+                id="terminal"
+                class="terminal-body"
+            >
+
+                <div class="welcome">
+
+                    <div class="welcome-top">
+
+                        <span>
+                            SYSTEM ONLINE
+                        </span>
+
+                        <span>
+                            0x7F
+                        </span>
+
+                    </div>
+
+<pre class="ascii">
+██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗
+██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
+███████║███████║██║     █████╔╝ █████╗  ██████╔╝
+██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
+██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+</pre>
+
+                    <div class="welcome-title">
+                        BLACKOUT TERMINAL
+                    </div>
+
+                    <div class="welcome-description">
+                        Unauthorized access simulation environment.
+                    </div>
+
+                    <div class="welcome-warning">
+                        [!] ALL ACTIVITY IS SIMULATED
+                    </div>
+
+                    <div class="welcome-help">
+                        Type <span>help</span> to access system commands.
+                    </div>
+
+                </div>
+
+
+                <div class="input-line">
+
+                    <span class="prompt">
+                        root@unknown:~$
+                    </span>
+
+                    <input
+                        type="text"
+                        id="commandInput"
+                        autocomplete="off"
+                        autofocus
+                        spellcheck="false"
+                    >
+
+                </div>
+
+            </section>
+
+
+            <!-- STATUS -->
+
+            <footer class="status-bar">
+
+                <div class="status-online">
+
+                    <span class="status-dot"></span>
+
+                    ONLINE
+
+                </div>
+
+                <div>
+                    CPU
+                    <span id="cpuValue">37%</span>
+                </div>
+
+                <div>
+                    RAM
+                    <span id="ramValue">61%</span>
+                </div>
+
+                <div>
+                    NET
+                    <span id="pingValue">12ms</span>
+                </div>
+
+                <div>
+                    SESSION
+                    <span id="sessionValue">
+                        SECURE
+                    </span>
+                </div>
+
+                <div id="clock">
+                    00:00:00
+                </div>
+
+            </footer>
+
+        </div>
+
+
+        <!-- THEME PANEL -->
+
+        <div
+            id="themePanel"
+            class="theme-panel hidden"
+        >
+
+            <div class="theme-title">
+                SYSTEM THEMES
+            </div>
+
+            <button data-theme="void">
+                <span class="theme-color void-theme"></span>
+                VOID
+            </button>
+
+            <button data-theme="toxic">
+                <span class="theme-color toxic-theme"></span>
+                TOXIC
+            </button>
+
+            <button data-theme="blood">
+                <span class="theme-color blood-theme"></span>
+                BLOOD
+            </button>
+
+            <button data-theme="phantom">
+                <span class="theme-color phantom-theme"></span>
+                PHANTOM
+            </button>
+
+            <button data-theme="cyber">
+                <span class="theme-color cyber-theme"></span>
+                CYBER
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- MATRIX -->
+
+    <canvas
+        id="matrixCanvas"
+        class="matrix-canvas hidden"
+    ></canvas>
+
+
+    <!-- BREACH OVERLAY -->
+
+    <div
+        id="breachOverlay"
+        class="breach-overlay hidden"
+    >
+
+        <div class="breach-warning">
+            SYSTEM BREACH
+        </div>
+
+        <div class="breach-subtitle">
+            SECURITY PROTOCOLS DISABLED
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
