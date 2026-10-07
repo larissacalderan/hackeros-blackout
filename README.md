@@ -21,7 +21,7 @@ O projeto simula um ambiente de terminal diretamente no navegador, com animaçã
 * 🔎 Simulação de análise de rede
 * 💀 Simulação de ataque hacker
 * 🟢 Modo Matrix
-* 🎨 Vários temas visuais
+* 🎨 5 temas visuais
 * ⌨️ Histórico de comandos
 * 🔤 Autocompletar utilizando a tecla `Tab`
 * 📊 Monitoramento fictício de CPU, RAM e rede
@@ -87,6 +87,18 @@ admin
 
 ---
 
+## 🖼️ Demonstração
+
+### 🔐 Tela de Login
+
+![Tela de Login do HackerOS](login.png)
+
+### 🖥️ Terminal HackerOS
+
+![Terminal do HackerOS](terminal.png)
+
+---
+
 ## 🛠️ Tecnologias utilizadas
 
 * HTML5
@@ -120,7 +132,7 @@ index.html
 
 diretamente no navegador.
 
-Não é necessário instalar frameworks ou dependências.
+Não é necessário instalar frameworks, bibliotecas ou dependências.
 
 ---
 
@@ -142,9 +154,21 @@ O principal objetivo foi criar um projeto visualmente interessante enquanto prat
 
 ---
 
-## 🖼️ Demonstração
+## 🔒 Segurança
 
-> Adicione aqui uma imagem ou GIF mostrando o projeto funcionando.
+Apesar da aparência inspirada em sistemas hackers, o HackerOS Blackout **não realiza nenhuma operação real de invasão ou exploração**.
+
+Todas as funções de:
+
+* análise de rede;
+* rastreamento;
+* conexão;
+* descriptografia;
+* ataque;
+* arquivos;
+* comandos;
+
+são apenas **simulações executadas no navegador**.
 
 ---
 
@@ -152,12 +176,14 @@ O principal objetivo foi criar um projeto visualmente interessante enquanto prat
 
 ### Larissa Calderan
 
-Desenvolvedora Full Stack com foco em Front-End.
+**Desenvolvedora Full Stack com foco em Front-End.**
 
 Gosto de criar interfaces interativas, explorar novas tecnologias e transformar ideias em projetos funcionais e visualmente interessantes.
 
 ---
 
-⭐ Se você gostou do projeto, deixe uma estrela no repositório!
+## ⭐ Apoie o projeto
+
+Se você gostou do HackerOS Blackout, considere deixar uma ⭐ no repositório.
 
 Feito com 🖤, JavaScript e uma quantidade questionável de estética hacker.
