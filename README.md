@@ -1,5 +1,6 @@
 # 🖤 HackerOS Blackout
 
+
 ### 🖥️ Um terminal hacker cinematográfico criado com HTML, CSS e JavaScript.
 
 O **HackerOS Blackout** é uma experiência web interativa inspirada em terminais hackers, interfaces de cibersegurança e sistemas operacionais fictícios.
@@ -45,6 +46,57 @@ O terminal possui diferentes estilos visuais:
 ---
 
 ## 💻 Comandos disponíveis
+=======
+> A cinematic fake hacker terminal built with HTML, CSS and JavaScript.
+
+![HackerOS](https://img.shields.io/badge/HackerOS-Blackout-00ff66?style=for-the-badge\&logo=gnubash\&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge\&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge\&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge\&logo=javascript)
+
+## ⚡ Sobre
+
+**HackerOS Blackout** é um terminal hacker fictício criado para simular uma interface de sistema avançada, com estética cyberpunk e diversas interações.
+
+O projeto foi desenvolvido com **HTML, CSS e JavaScript puro**, sem frameworks ou bibliotecas externas.
+
+> ⚠️ Todo o sistema é uma simulação visual. Nenhuma invasão ou atividade real é realizada.
+
+## 🖥️ Funcionalidades
+
+* 🔐 Tela de autenticação
+* 🖤 Interface hacker totalmente temática
+* ⚡ Animação de inicialização do sistema
+* 💻 Terminal interativo
+* 📂 Sistema de arquivos virtual
+* 📝 Histórico de comandos
+* ⌨️ Autocomplete com `TAB`
+* 🟢 Matrix Mode
+* 💀 Simulação de invasão
+* 🔓 Simulação de acesso ROOT
+* 🌐 Simulação de scanner de rede
+* 📡 Topologia de rede fictícia
+* 🔐 Sistema de descriptografia fictício
+* 🎨 Sistema de temas
+* 🔊 Controle de sons
+* 📊 Monitoramento fictício de CPU, RAM e ping
+* 🕒 Relógio em tempo real
+* 📱 Interface responsiva
+
+## 🎨 Temas
+
+O HackerOS possui diferentes temas visuais:
+
+| Tema    | Estilo             |
+| ------- | ------------------ |
+| VOID    | Verde neon sombrio |
+| TOXIC   | Verde radioativo   |
+| BLOOD   | Vermelho agressivo |
+| PHANTOM | Roxo cyberpunk     |
+| CYBER   | Azul neon          |
+
+## ⌨️ Comandos
+
 
 ```text
 help
@@ -73,6 +125,7 @@ theme
 sound
 ```
 
+
 ---
 
 ## 🔐 Sistema de acesso
@@ -80,10 +133,16 @@ sound
 Você pode utilizar qualquer nome de usuário.
 
 ### Senha
+=======
+## 🔐 Acesso
+
+A senha padrão da simulação é:
+
 
 ```text
 admin
 ```
+
 
 ---
 
@@ -100,10 +159,16 @@ admin
 ---
 
 ## 🛠️ Tecnologias utilizadas
+=======
+O usuário pode ser qualquer nome.
+
+## 🛠️ Tecnologias
+
 
 * HTML5
 * CSS3
 * JavaScript
+<<<<<<< HEAD
 * Manipulação do DOM
 * Canvas API
 * Web APIs
@@ -111,11 +176,20 @@ admin
 ---
 
 ## 🚀 Como executar o projeto
+=======
+* Canvas API
+
+## 🚀 Como executar
+
 
 Clone o repositório:
 
 ```bash
+
 git clone https://github.com/larissacalderan/hackeros-blackout.git
+=======
+git clone https://github.com/SEU-USUARIO/hackeros-blackout.git
+
 ```
 
 Entre na pasta:
@@ -124,11 +198,16 @@ Entre na pasta:
 cd hackeros-blackout
 ```
 
+
 Depois, abra o arquivo:
+=======
+Depois abra:
+
 
 ```text
 index.html
 ```
+
 
 diretamente no navegador.
 
@@ -187,3 +266,31 @@ Gosto de criar interfaces interativas, explorar novas tecnologias e transformar 
 Se você gostou do HackerOS Blackout, considere deixar uma ⭐ no repositório.
 
 Feito com 🖤, JavaScript e uma quantidade questionável de estética hacker.
+=======
+no navegador.
+
+Também é possível executar o projeto utilizando a extensão **Live Server** no VS Code.
+
+## 📌 Objetivo
+
+O projeto foi criado como uma experiência de interface e interação, explorando:
+
+* manipulação do DOM;
+* eventos de teclado;
+* animações CSS;
+* Canvas;
+* sistemas de comandos;
+* gerenciamento de estado;
+* interfaces responsivas;
+* simulação de sistemas de terminal.
+
+## 👩‍💻 Desenvolvido por
+
+**Larissa**
+
+Full Stack Developer com foco em Front-End.
+
+---
+
+⭐ Se você gostou do projeto, deixe uma estrela no repositório.
+
